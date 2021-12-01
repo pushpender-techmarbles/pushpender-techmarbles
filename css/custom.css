@@ -1,0 +1,31 @@
+.cs-hide{
+	display: none;
+}
+ul.cs-variation-option > li {
+  list-style: none;
+  display: inline;
+}
+ul.cs-variation-option > li.cs-box{
+	border: 1px solid black;
+  margin: 3px;
+  padding: 3px;
+}
+ul.cs-variation-option > li:hover{
+	border: 1px solid red;
+  cursor: pointer;
+}
+ul.cs-variation-option > li.active{
+	border: 1px solid red;
+}
+ul.cs-variation-option > li.cs-dot {
+  height: 25px;
+  width: 25px;
+  border-radius: 50%;
+  display: inline-block;
+  margin: 3px;
+  padding: 3px;
+}
+.cs-diable{
+  pointer-events: none;
+  border: 2px solid lightgrey;
+}
